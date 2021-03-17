@@ -73,8 +73,8 @@
                 <artifactId>liquibase-maven-plugin</artifactId>
                 <version>4.3.1</version>
                 <configuration>
-                    <propertyFileWillOverride>true</propertyFileWillOverride>
                     <propertyFile>target/classes/liquibase-${dbms.type}.properties</propertyFile>
+                    <outputChangeLogFile>target/changelog.xml</outputChangeLogFile>
                 </configuration>
             </plugin>
         </plugins>
