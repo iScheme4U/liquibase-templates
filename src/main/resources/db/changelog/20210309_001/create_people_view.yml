@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20210309_001_2
+      author: Scott
+      changes:
+        - createView:
+            viewName: people
+            replaceIfExists: true
+            remarks: A simple view for person
+            selectQuery: select id, name from person
