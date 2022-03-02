@@ -30,12 +30,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.23</version>
-        </dependency>
-        <dependency>
-            <groupId>com.oracle.database.jdbc</groupId>
-            <artifactId>ojdbc8</artifactId>
-            <version>19.10.0.0</version>
+            <version>8.0.25</version>
         </dependency>
     </dependencies>
     <profiles>
@@ -43,7 +38,6 @@
             <id>dev</id>
             <properties>
                 <profiles.active>dev</profiles.active>
-                <dbms.type>mysql</dbms.type>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -53,7 +47,6 @@
             <id>prod</id>
             <properties>
                 <profiles.active>prod</profiles.active>
-                <dbms.type>oracle</dbms.type>
             </properties>
         </profile>
     </profiles>
@@ -73,7 +66,7 @@
                 <artifactId>liquibase-maven-plugin</artifactId>
                 <version>4.3.1</version>
                 <configuration>
-                    <propertyFile>target/classes/liquibase-${dbms.type}.properties</propertyFile>
+                    <propertyFile>target/classes/liquibase.properties</propertyFile>
                     <outputChangeLogFile>target/changelog.xml</outputChangeLogFile>
                 </configuration>
             </plugin>
