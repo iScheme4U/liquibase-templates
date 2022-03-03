@@ -16,10 +16,10 @@ The project is released under the MIT License. The [MIT license][license] is reg
 [Open Source Initiative][osi].
 
 
-[home]: https://github.com/Scott-Lau/liquibase-templates
+[home]: https://github.com/soul-craft/liquibase-templates
 [license]: https://opensource.org/licenses/MIT
 [osi]: https://opensource.org/
 [liquibase]: https://www.liquibase.org/
 [liquibase_doc]: https://docs.liquibase.com/
-[readme]: https://github.com/Scott-Lau/liquibase-templates/blob/master/README.md
-[readme_zh_cn]: https://github.com/Scott-Lau/liquibase-templates/blob/master/README_zh_cn.md
+[readme]: https://github.com/soul-craft/liquibase-templates/blob/master/README.md
+[readme_zh_cn]: https://github.com/soul-craft/liquibase-templates/blob/master/README_zh_cn.md

@@ -16,10 +16,10 @@
 这个工程遵循MIT开源协议. [MIT开源协议][license]已在[Open Source Initiative][osi]注册并获得批准。
 
 
-[home]: https://github.com/Scott-Lau/liquibase-templates
+[home]: https://github.com/soul-craft/liquibase-templates
 [license]: https://opensource.org/licenses/MIT
 [osi]: https://opensource.org/
 [liquibase]: https://www.liquibase.org/
 [liquibase_doc]: https://docs.liquibase.com/
-[readme]: https://github.com/Scott-Lau/liquibase-templates/blob/master/README.md
-[readme_zh_cn]: https://github.com/Scott-Lau/liquibase-templates/blob/master/README_zh_cn.md
+[readme]: https://github.com/soul-craft/liquibase-templates/blob/master/README.md
+[readme_zh_cn]: https://github.com/soul-craft/liquibase-templates/blob/master/README_zh_cn.md
